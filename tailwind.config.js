@@ -8,7 +8,7 @@ module.exports = {
         padding: "1rem",
       },
       colors: {
-        softWhite: "#EEEEEE",
+        softWhite: "#F8FAFC",
         softGray: "#E5E5E5",
         softBlue: "#1089FF",
         background: "#23374D",
