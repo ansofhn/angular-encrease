@@ -1,6 +1,5 @@
 <div class="flex items-center gap-2 lg:justify-end">
-  <label for="priceSorting" class="w-20 text-sm font-light"> Sort By :</label>
-  <select name="priceSorting" class="w-full p-2 text-sm border lg:w-2/3">
+  <select name="priceSorting" aria-placeholder="Sort by" class="w-full p-2 text-sm border text-background lg:w-2/3">
     <option *ngFor="let option of options" value="option">{{ option }}</option>
   </select>
 </div>
