@@ -1,22 +1,140 @@
 <!-- <app-navbar></app-navbar> -->
 <div class="py-32">
-    <div class="max-w-screen-xl mx-auto font-poppins p-4">
-        <div class="flex flex-col gap-y-8 justify-center">
-            <div class="space-y-5 text-center">
-                <h1 class="text-5xl lg:text-6xl font-bold text-background">Products</h1>
-                <h2 class="text-sm lg:text-lg font-light">Find the product or service you are looking for here</h2>
-            </div>
-            <div>
-                <app-search-bar></app-search-bar>
-            </div>
-            <div>
-                <app-sort-bar></app-sort-bar>
-            </div>
-            <div>
-                <app-product-cards></app-product-cards>
-            </div>
+  <div class="max-w-screen-xl p-4 mx-auto font-poppins">
+    <div class="flex flex-col justify-center gap-y-12">
+      <div class="space-y-5 text-center">
+        <h1 class="text-5xl font-bold lg:text-6xl text-background">Products</h1>
+        <h2 class="text-sm font-light lg:text-base">
+          Find the product or service you are looking for here
+        </h2>
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="w-[23%]">
+          <app-search-bar></app-search-bar>
         </div>
+        <div class="w-[27%]">
+          <app-sort-bar></app-sort-bar>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="w-1/4 px-2">
+          <div class="my-6 font-bold uppercase text-background">Category</div>
+          <div class="flex items-center my-2">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="default-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >All</label
+            >
+          </div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Service</label
+            >
+          </div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Technology</label
+            >
+          </div>
+          <div class="mb-6 font-bold uppercase mt-14 text-background">
+            Price
+          </div>
+          <input
+            id="default-range"
+            type="range"
+            value="50"
+            class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+          />
+
+
+          <div class="mb-6 font-bold uppercase mt-14 text-background">Brand</div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Service</label
+            >
+          </div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Technology</label
+            >
+          </div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Service</label
+            >
+          </div>
+          <div class="flex items-center my-2">
+            <input
+              checked
+              id="checked-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="checked-checkbox"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Technology</label
+            >
+          </div>
+        </div>
+        <div class="pl-4">
+          <app-product-cards></app-product-cards>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
 <!-- <app-footer></app-footer> -->
