@@ -10,6 +10,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { SortBarComponent } from './components/sort-bar/sort-bar.component';
 import { ProductCardsComponent } from './components/product-cards/product-cards.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProductsComponent,
     SearchBarComponent,
     SortBarComponent,
-    ProductCardsComponent
+    ProductCardsComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
