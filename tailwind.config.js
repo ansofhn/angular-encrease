@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: "1rem",
+      },
       colors: {
         softWhite: "#EEEEEE",
         softGray: "#E5E5E5",
