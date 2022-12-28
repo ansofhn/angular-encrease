@@ -13,6 +13,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FilterComponent } from './components/filter/filter.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ServiceComponent } from './components/service/service.component';
+import { ProductListComponent } from './components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ServiceComponent } from './components/service/service.component';
     ProductCardsComponent,
     FilterComponent,
     HomepageComponent,
-    ServiceComponent
+    ServiceComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
