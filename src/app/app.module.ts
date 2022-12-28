@@ -12,6 +12,7 @@ import { ProductCardsComponent } from './components/product-cards/product-cards.
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FilterComponent } from './components/filter/filter.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ServiceComponent } from './components/service/service.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     SortBarComponent,
     ProductCardsComponent,
     FilterComponent,
-    HomepageComponent
+    HomepageComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
