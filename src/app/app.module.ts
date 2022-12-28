@@ -14,6 +14,7 @@ import { FilterComponent } from './components/filter/filter.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ServiceComponent } from './components/service/service.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProductListComponent } from './components/product-list/product-list.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
