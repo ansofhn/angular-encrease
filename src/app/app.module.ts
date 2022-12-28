@@ -11,6 +11,7 @@ import { SortBarComponent } from './components/sort-bar/sort-bar.component';
 import { ProductCardsComponent } from './components/product-cards/product-cards.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FilterComponent } from './components/filter/filter.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FilterComponent } from './components/filter/filter.component';
     SearchBarComponent,
     SortBarComponent,
     ProductCardsComponent,
-    FilterComponent
+    FilterComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
