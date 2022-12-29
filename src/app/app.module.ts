@@ -17,6 +17,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { SwiperModule } from 'swiper/angular';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ResgisterpageComponent } from './resgisterpage/resgisterpage.component';
+import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ResgisterpageComponent } from './resgisterpage/resgisterpage.component'
     ServiceComponent,
     ProductListComponent,
     LoginpageComponent,
-    ResgisterpageComponent
+    ResgisterpageComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
