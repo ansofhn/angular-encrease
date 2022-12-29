@@ -15,6 +15,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ServiceComponent } from './components/service/service.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { SwiperModule } from 'swiper/angular';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { ResgisterpageComponent } from './resgisterpage/resgisterpage.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SwiperModule } from 'swiper/angular';
     FilterComponent,
     HomepageComponent,
     ServiceComponent,
-    ProductListComponent
+    ProductListComponent,
+    LoginpageComponent,
+    ResgisterpageComponent
   ],
   imports: [
     BrowserModule,
