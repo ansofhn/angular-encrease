@@ -19,6 +19,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { ResgisterpageComponent } from './resgisterpage/resgisterpage.component';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 import { AboutComponent } from './components/about/about.component';
+import { AboutpageComponent } from './aboutpage/aboutpage.component';
+import { ContactpageComponent } from './contactpage/contactpage.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { AboutComponent } from './components/about/about.component';
     LoginpageComponent,
     ResgisterpageComponent,
     ScrollToTopComponent,
-    AboutComponent
+    AboutComponent,
+    AboutpageComponent,
+    ContactpageComponent
   ],
   imports: [
     BrowserModule,
